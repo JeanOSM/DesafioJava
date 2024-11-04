@@ -19,4 +19,7 @@ public class Compra {
     public void setId(int id) {
         this.id = id;
     }
+    public void criarCompra(List<Item>itens){
+        this.itens = itens;
+    }
 }

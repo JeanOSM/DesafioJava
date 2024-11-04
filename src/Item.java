@@ -22,8 +22,11 @@ public class Item {
     public void setId(int id) {
         this.id = id;
     }
-
     public int getId() {
         return id;
+    }
+    public void criarItem(int quantidade, Produto produto){
+        this.quantidade = quantidade;
+        this.produto = produto;
     }
 }

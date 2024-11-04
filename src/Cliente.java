@@ -39,4 +39,11 @@ public class Cliente {
         }
         return total ;
     }
+    public void criarCliente(String nome, List<Compra>compras){
+        this.nome = nome;
+        this.compras = compras;
+    }
+
+
+
 }

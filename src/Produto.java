@@ -7,7 +7,7 @@ public class Produto {
         return preco;
     }
 
-    public String getNome(String lazanha) {
+    public String getNome() {
         return nome;
     }
 
@@ -25,5 +25,10 @@ public class Produto {
 
     public void setId(int id) {
         this.id = id;
+    }
+    public void criarProduto(String nome, Double preco){
+      this.nome = nome;
+        this.preco = preco;
+
     }
 }
